@@ -1,0 +1,6 @@
+Flask
+gunicorn
+pytest
+pymongo
+snowflake-connector-python
+azure-storage-blob
