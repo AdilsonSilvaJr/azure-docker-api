@@ -1,8 +1,8 @@
-# Python API Project
+# 🐍 Python API Project
 
 Welcome to the Python API project! This project is a simple Flask application structured to provide a RESTful API. Below are the details regarding the project setup, usage, and structure.
 
-## Project Structure
+## 📁 Project Structure
 
 ```
 python-api-project
@@ -25,15 +25,15 @@ python-api-project
 └── README.md                  # Project documentation
 ```
 
-## Getting Started
+## 🚀 Getting Started
 
-### Prerequisites
+### 📋 Prerequisites
 
 - Python 3.x
 - Flask
 - Docker
 
-### Installation
+### 🔧 Installation
 
 1. Clone the repository:
    ```
@@ -46,21 +46,21 @@ python-api-project
    pip install -r requirements.txt
    ```
 
-### Running the Application
+### ▶️ Running the Application
 
 To run the application locally, execute the following command:
 ```
 python src/app.py
 ```
 
-### Running Tests
+### 🧪 Running Tests
 
 To run the unit tests, use:
 ```
 pytest src/tests
 ```
 
-### Docker
+### 🐳 Docker
 
 To build the Docker image, run:
 ```
@@ -72,14 +72,14 @@ To run the Docker container, use:
 docker run -p 5000:5000 python-api-project
 ```
 
-### CI/CD with GitHub Actions
+### ⚙️ CI/CD with GitHub Actions
 
 This project includes a GitHub Actions workflow defined in `.github/workflows/build.yml` that automates the process of building the Docker image and pushing it to Azure Container Registry.
 
-## Contributing
+## 🤝 Contributing
 
 Contributions are welcome! Please submit a pull request or open an issue for any enhancements or bug fixes.
 
-## License
+## 📄 License
 
 This project is licensed under the MIT License. See the LICENSE file for details.
