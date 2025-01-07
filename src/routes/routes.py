@@ -1,5 +1,5 @@
 from flask import Blueprint
-from controllers import hello_world
+from controllers.controller import hello_world
 
 def init_routes(app):
     main = Blueprint('main', __name__)
